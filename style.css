@@ -1,0 +1,7 @@
+﻿ol#lista_filtrado{
+    list-style: none;
+    }
+    ol#lista_filtrado li{
+        display: inline;
+        margin-right: 7px;
+    }

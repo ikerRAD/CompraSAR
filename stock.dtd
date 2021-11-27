@@ -1,0 +1,14 @@
+<!ELEMENT stock (item)*>
+<!ELEMENT item (imagen, existencias, nombre, descripcion, precio, resenyas*)>
+<!ATTLIST item tags CDATA #REQUIRED>
+<!ATTLIST item id ID #REQUIRED>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT existencias (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT resenyas (username, fecha, valoracion, resenya)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT resenya (#PCDATA)>

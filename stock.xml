@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stock SYSTEM "stock.dtd">
+<stock>
+	<item tags="HAPFC" id="item_0">
+		<imagen>images/americana0.jpg</imagen>
+		<existencias>34</existencias>
+		<nombre>Americana gris vintage</nombre>
+		<descripcion>
+			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
+		</descripcion>
+		<precio>56,87</precio>
+		<resenyas>
+			<username>Juanito</username>
+			<fecha>28/10/2020</fecha>
+			<valoracion>96</valoracion>
+			<resenya>Pues me ha encantado y me queda como un guante, me ha ayudado a ser popular</resenya>
+		</resenyas>
+		<resenyas>
+			<username>PedrxxxX</username>
+			<fecha>31/01/2021</fecha>
+			<valoracion>60</valoracion>
+			<resenya>Es muy bonita pero como he ganado peso y ya no me queda pues expreso aquí mi frustración</resenya>
+		</resenyas>
+	</item>
+</stock>
