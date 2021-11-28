@@ -3,12 +3,11 @@
 <stock>
 	<item tags="HAPFC" id="item_0">
 		<imagen>images/americana0.jpg</imagen>
-		<existencias>34</existencias>
 		<nombre>Americana gris vintage</nombre>
 		<descripcion>
 			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
 		</descripcion>
-		<precio>56,87</precio>
+		<precio>56.87</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>20</cantidad>
@@ -39,5 +38,6 @@
 			<titulo>He engordado</titulo>
 			<resenya>Es muy bonita pero como he ganado peso y ya no me queda pues expreso aquí mi frustración</resenya>
 		</resenyas>
+		<descuento>20</descuento>
 	</item>
 </stock>

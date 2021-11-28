@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>PG3: Tienda</title>
-		<meta charset="UTF-8" 
+		<meta charset="UTF-8">
 		<script type="text/javascript" src="index.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
