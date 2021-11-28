@@ -9,6 +9,22 @@
 			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
 		</descripcion>
 		<precio>56,87</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>20</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>4</cantidad>
+		</tallas>
 		<resenyas>
 			<username>Juanito</username>
 			<fecha>28/10/2020</fecha>
