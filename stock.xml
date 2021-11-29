@@ -8,7 +8,7 @@
 		<descripcion>
 			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
 		</descripcion>
-		<precio>59,99</precio>
+		<precio>59.99</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>20</cantidad>
@@ -49,7 +49,7 @@
 		<descripcion>
 
 		</descripcion>
-		<precio>220,00</precio>
+		<precio>220.00</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>5</cantidad>
@@ -82,7 +82,7 @@
 		<descripcion>
 
 		</descripcion>
-		<precio>220,00</precio>
+		<precio>220.00</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>5</cantidad>
@@ -115,7 +115,7 @@
 		<descripcion>
 
 		</descripcion>
-		<precio>220,00</precio>
+		<precio>220.00</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>5</cantidad>
@@ -148,7 +148,7 @@
 		<descripcion>
 
 		</descripcion>
-		<precio>220,00</precio>
+		<precio>220.00</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>5</cantidad>
@@ -181,7 +181,7 @@
 		<descripcion>
 
 		</descripcion>
-		<precio>220,00</precio>
+		<precio>220.00</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>5</cantidad>
