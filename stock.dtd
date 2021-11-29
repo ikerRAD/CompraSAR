@@ -1,5 +1,5 @@
 <!ELEMENT stock (item)*>
-<!ELEMENT item (imagen, existencias, nombre, descripcion, precio,tallas+, resenyas*)>
+<!ELEMENT item (imagen, existencias, nombre, descripcion, precio,tallas+, resenyas*, descuento?)>
 <!ATTLIST item tags CDATA #REQUIRED>
 <!ATTLIST item id ID #REQUIRED>
 <!ELEMENT imagen (#PCDATA)>
@@ -7,10 +7,11 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
 <!ELEMENT tallas (talla, cantidad)>
 <!ELEMENT talla (#PCDATA)>
 <!ELEMENT cantidad (#PCDATA)>
-<!ELEMENT resenyas (username, fecha, valoracion, resenya)>
+<!ELEMENT resenyas (username, fecha, valoracion,titulo, resenya)>
 <!ELEMENT username (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT valoracion (#PCDATA)>

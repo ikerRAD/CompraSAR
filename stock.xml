@@ -8,7 +8,7 @@
 		<descripcion>
 			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
 		</descripcion>
-		<precio>56,87</precio>
+		<precio>59,99</precio>
 		<tallas>
 			<talla>S</talla>
 			<cantidad>20</cantidad>
@@ -29,13 +29,182 @@
 			<username>Juanito</username>
 			<fecha>28/10/2020</fecha>
 			<valoracion>96</valoracion>
+			<titulo>Lo mejor de mi vida</titulo>
 			<resenya>Pues me ha encantado y me queda como un guante, me ha ayudado a ser popular</resenya>
 		</resenyas>
 		<resenyas>
 			<username>PedrxxxX</username>
 			<fecha>31/01/2021</fecha>
 			<valoracion>60</valoracion>
+			<titulo>He engordado</titulo>
 			<resenya>Es muy bonita pero como he ganado peso y ya no me queda pues expreso aquí mi frustración</resenya>
 		</resenyas>
+		<descuento>20</descuento>
+	</item>
+
+	<item tags="HAPC" id="item_1">
+		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
+		<existencias>15</existencias>
+		<nombre>Abrigo Himalayan The North Face</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>220,00</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Español98</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>96</valoracion>
+			<titulo>Lo flipo</titulo>
+			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+		</resenyas>
+		<descuento>0</descuento>
+	</item>
+	<item tags="HAPC" id="item_2">
+		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
+		<existencias>15</existencias>
+		<nombre>Abrigo Himalayan The North Face</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>220,00</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Español98</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>96</valoracion>
+			<titulo>Lo flipo</titulo>
+			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+		</resenyas>
+		<descuento>0</descuento>
+	</item>
+	<item tags="HAPC" id="item_3">
+		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
+		<existencias>15</existencias>
+		<nombre>Abrigo Himalayan The North Face</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>220,00</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Español98</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>96</valoracion>
+			<titulo>Lo flipo</titulo>
+			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+		</resenyas>
+		<descuento>0</descuento>
+	</item>
+	<item tags="HAPC" id="item_4">
+		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
+		<existencias>15</existencias>
+		<nombre>Abrigo Himalayan The North Face</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>220,00</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Español98</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>96</valoracion>
+			<titulo>Lo flipo</titulo>
+			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+		</resenyas>
+		<descuento>0</descuento>
+	</item>
+	<item tags="HAPC" id="item_5">
+		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
+		<existencias>15</existencias>
+		<nombre>Abrigo Himalayan The North Face</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>220,00</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Español98</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>96</valoracion>
+			<titulo>Lo flipo</titulo>
+			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+		</resenyas>
+		<descuento>0</descuento>
 	</item>
 </stock>
