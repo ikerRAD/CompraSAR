@@ -11,7 +11,7 @@
 <!ELEMENT tallas (talla, cantidad)>
 <!ELEMENT talla (#PCDATA)>
 <!ELEMENT cantidad (#PCDATA)>
-<!ELEMENT resenyas (username, fecha, valoracion, resenya)>
+<!ELEMENT resenyas (username, fecha, valoracion,titulo, resenya)>
 <!ELEMENT username (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT valoracion (#PCDATA)>
