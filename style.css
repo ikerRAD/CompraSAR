@@ -1,7 +1,76 @@
-﻿ol#lista_filtrado{
+﻿#header {
+    display: inline-block;
+}
+
+#header img {
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 16em;
+    height: 10em;
+}
+.content{
+    display: grid;
+}
+.item{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+#item_img img{
+    margin-top: 3em;
+    margin-left: 3.5em;
+    width: 350px;
+    height: 500px;
+
+}
+#item_name{
+    display: inline-block;
+    margin-left: 4em;
+    font-weight: bold;
+}
+
+#item_price{
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+#item_price_d{
+    display: inline-block;
+    margin-right: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 2em;
+    text-decoration:line-through;
+}
+
+#item_disc_tag{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: red;
+    margin-left:5em;
+}
+
+#item_disc{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+    margin-left: 1em;
+}
+
+ol#lista_filtrado{
+    margin-top: 5em;
+    margin-left: 5em;
+    float: right;
+    display:inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     list-style: none;
     }
     ol#lista_filtrado li{
         display: inline;
-        margin-right: 7px;
+        margin-right: 7em;
     }
