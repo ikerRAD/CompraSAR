@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE stock SYSTEM "stock.dtd">
 <stock>
-	<item tags="HAPFC" id="item_0">
+	<item tags="HR" id="item_0">
 		<imagen>images/americana0.jpg</imagen>
 		<nombre>Americana gris vintage</nombre>
 		<descripcion>
@@ -41,9 +41,8 @@
 		<descuento>20</descuento>
 	</item>
 
-	<item tags="HAPC" id="item_1">
+	<item tags="UR" id="item_1">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<existencias>15</existencias>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
 
@@ -74,9 +73,8 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="HAPC" id="item_2">
+	<item tags="UR" id="item_2">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<existencias>15</existencias>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
 
@@ -107,9 +105,8 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="HAPC" id="item_3">
+	<item tags="UR" id="item_3">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<existencias>15</existencias>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
 
@@ -140,9 +137,8 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="HAPC" id="item_4">
+	<item tags="UR" id="item_4">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<existencias>15</existencias>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
 
@@ -173,9 +169,8 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="HAPC" id="item_5">
+	<item tags="UR" id="item_5">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<existencias>15</existencias>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
 

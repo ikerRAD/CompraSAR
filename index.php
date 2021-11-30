@@ -14,6 +14,7 @@
                 <li>Mujer</li>
                 <li>Unisex</li>
                 <li>Accesorios</li>
+                <li>Ropa</li>
             </ol>
         </div>
         <div class="busqueda">
