@@ -39,17 +39,17 @@
     display: inline-block;
     font-size: 1em;
     font-weight: bold;
-    float:right;
+    margin-left: 2em;
     color: black;
 }
 
 .item_price_d{
     display: inline-block;
-    margin-right: 1.5em;
+    margin-right: 0.7em;
     font-size: 0.7em;
     font-weight: bold;
     text-decoration:line-through;
-    float:right;
+    margin-left: 6em;
     color: black;
 }
 
@@ -58,8 +58,6 @@
     font-size: 1em;
     font-weight: bold;
     color: red;
-    margin-left: 1em;
-    float:right;
 }
 
 .item_disc_tag{
