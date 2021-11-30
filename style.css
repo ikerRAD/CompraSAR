@@ -9,55 +9,64 @@
     height: 10em;
 }
 .content{
-    display: grid;
+    width: 100%;
 }
+
 .item{
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
-}
-#item_img img{
-    margin-top: 3em;
-    margin-left: 3.5em;
-    width: 350px;
-    height: 500px;
+    width:33%;
+    min-height:45em;
+    float:left;
 
 }
-#item_name{
+.item_img img{
+
+    margin-top: 3em;
+    margin-left: 3.5em;
+    width: 25em;
+    height: 35em;
+
+}
+.item_name{
     display: inline-block;
     margin-left: 4em;
     font-weight: bold;
+    color: black;
 }
 
-#item_price{
+.item_price{
     display: inline-block;
-    margin-right: 3em;
     font-size: 1em;
     font-weight: bold;
-    margin-left: 2em;
+    float:right;
+    color: black;
 }
 
-#item_price_d{
+.item_price_d{
     display: inline-block;
     margin-right: 1.5em;
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: bold;
-    margin-left: 2em;
     text-decoration:line-through;
+    float:right;
+    color: black;
 }
 
-#item_disc_tag{
-    font-size: 1.4em;
-    font-weight: bold;
-    color: red;
-    margin-left:5em;
-}
-
-#item_disc{
+.item_disc{
     display: inline-block;
     font-size: 1em;
     font-weight: bold;
     color: red;
     margin-left: 1em;
+    float:right;
+}
+
+.item_disc_tag{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: red;
+    margin-left:5em;
 }
 
 ol#lista_filtrado{

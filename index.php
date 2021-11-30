@@ -27,23 +27,25 @@
                 $stock = simplexml_load_file("stock.xml");
                 foreach ($stock->item as $item){
                     ?>
-                    <a class="buy-item" href="compra.php?compra_id=<?php echo $item['id'];?>">
-                        <div class="item">
-                            <div id ="item_img" name="item_img"><img src=<?php echo $item->imagen?>></div>
-                            <div id="item_name" name="item_name"><?php echo $item->nombre ?> </div>
-                            <?php
+                    <div class="item">
+                        <a class="buy-item" href="compra.php?compra_id=<?php echo $item['id'];?>">
+                            <div class ="item_img"><img src=<?php echo $item->imagen;?>></div>
+                            <div class ="item_name"><?php echo $item->nombre;?></div><?php
+
                             if($item->descuento == 0){
-                               ?><div id="item_price" name="item_price"><?php echo $item->precio.'€'?> <?php
+                               ?><div class ="item_price"><?php echo $item->precio.'€';
                             }
                             else{
                                 ?>
-                                <div id="item_price_d" name="item_disc"><?php echo $item->precio.'€'?></div><div id="item_disc"><?php echo round($item->precio*(1-($item->descuento/100)),2)?>€</div>
-                                <div id="item_disc_tag">Descuento del <?php echo $item->descuento?>%</div>
+                                <div class ="item_price_d"><?php echo $item->precio.'€';?></div><div class ="item_disc"><?php echo round($item->precio*(1-($item->descuento/100)),2);?>€</div>
+                                <div class ="item_disc_tag">Descuento del <?php echo $item->descuento;?>%</div>
                                <?php
                             }
                             ?>
-                        </div>
-                    </a>
+                            </div>
+                        </a>
+                    </div>
+
                     <?php
                 }
             }
