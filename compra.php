@@ -9,15 +9,16 @@ if(isset($_GET['compra_id'])){
         <!DOCTYPE html>
         <html>
         <head>
-            <title>PG3: Comprar <?php echo $stock->item[$pos]->nombre;?></title>
+            <title>YourOUTfit: Comprar <?php echo $stock->item[$pos]->nombre;?></title>
             <meta charset="UTF-8">
             <script type="text/javascript" src="compra.js"></script>
             <link rel="stylesheet" type="text/css" href="compra.css">
         </head>
         <body><?php
         $tobuy = $stock->item[$pos];
+        $discount = (100-$tobuy->descuento)/100;
         $toecho = '<h1>'.$tobuy->nombre.'</h1><h3>'.$tobuy->descripcion.'</h3>';
-        $toecho = $toecho.'<div class="item_img"><img src="'.$tobuy->imagen.'"></div>'.'<div class="price">'.$tobuy->precio.'€</div>';
+        $toecho = $toecho.'<div class="item_img"><img src="'.$tobuy->imagen.'"></div>'.'<div class="price">'.round($tobuy->precio*$discount, 2).'€</div>';
         echo $toecho;
         ?>
         <div class="formulario_compra">
@@ -31,10 +32,10 @@ if(isset($_GET['compra_id'])){
                     ?>
                 </select>
                 Elige la cantidad:
-                <input type="number" id="cuantos" min="1" max="100" name="cantidad" placeholder="1" onchange="funcionprecio(<?php echo $tobuy->precio; ?>);">
+                <input type="number" id="cuantos" min="1" max="100" name="cantidad" placeholder="1" onchange="funcionprecio(<?php echo round($tobuy->precio*$discount, 2); ?>);">
                 <input type="button" name="boton" value="comprar ya!" onclick="submit();">
             </form>
-            <div id="precio_actual"><?php echo $tobuy->precio; ?>€</div>
+            <div id="precio_actual"><?php echo round($tobuy->precio*$discount, 2); ?>€</div>
         </div>
         <php?
 
