@@ -16,18 +16,7 @@ if(isset($_GET['compra_id'])){
             <link rel="stylesheet" type="text/css" href="style.css">
         </head>
         <body>
-            <div id="header">
-                <a href="index.php">
-                    <img src="images/YourOutfitLogo.png"> <!--</div>-->
-                </a>
-                <ol id = "lista_filtrado">
-                    <li>Hombre</li>
-                    <li>Mujer</li>
-                    <li>Unisex</li>
-                    <li>Accesorios</li>
-                    <li>Calzado</li>
-                </ol>
-            </div>
+            <?php include_once "header.php";?>
             <div class="item">
                     <div class ="item_img"><img src=<?php echo $stock->item[$pos]->imagen;?>></div>
                     <div class ="item_name"><?php echo $stock->item[$pos]->nombre;?></div><?php
@@ -67,18 +56,19 @@ if(isset($_GET['compra_id'])){
 
 
             <div class="resenyas" >
-                Reseñas de los usuarios:
+                <div class="titulo_reseñas">Reseñas de los usuarios:</div>
             <?php
 
             foreach ($stock->item[$pos]->resenyas as $resenyas){
                 $toecho = '<div class="resenya"><div class="userfecha"><span class="username">'.$resenyas->username.'</span><span class="fecha">'.$resenyas->fecha.'</span></div>';
-                $toecho = $toecho.'<div class="valoracion">'.$resenyas->valoracion.'/100</div><div class="titulo">'.$resenyas->titulo.'</div><div class="cometario">'.$resenyas->resenya.'</div></div>';
+                $toecho = $toecho.'<div class="valoracion">'.$resenyas->valoracion.'/100</div><div class="titulo">'.$resenyas->titulo.'</div><div class="comentario">'.$resenyas->resenya.'</div></div>';
                     echo $toecho;
                   }
 
             ?>
             </div>
         </body>
+        <?php include_once "footer.php";?>
         </html>
         <?php
     }
