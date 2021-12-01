@@ -61,7 +61,11 @@ if(isset($_GET['compra_id'])){
                     <input type="number" id="cuantos" min="1" max="100" name="cantidad" placeholder="1" onchange="funcionprecio(<?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>);">
                     <input type="button" name="boton" value="Comprar ya!" onclick="submit();">
                 </form>
+                <div id="precio_actual">Total: <?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>€</div>
             </div>
+
+
+
             <div class="resenyas" >
                 Reseñas de los usuarios:
             <?php

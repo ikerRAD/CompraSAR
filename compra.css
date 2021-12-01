@@ -28,3 +28,10 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+#precio_actual{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+}
