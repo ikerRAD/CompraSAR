@@ -8,6 +8,23 @@
     width: 16em;
     height: 10em;
 }
+
+#header ol{
+    margin-top: 5em;
+    margin-left: 5em;
+    float: right;
+    display:inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#header li{
+    display: inline;
+    margin-right: 5em;
+}
+
 .content{
     width: 100%;
 }
@@ -18,6 +35,7 @@
     width:33%;
     min-height:45em;
     float:left;
+    text-decoration: none;
 
 }
 .item_img img{
@@ -67,17 +85,3 @@
     margin-left:5em;
 }
 
-ol#lista_filtrado{
-    margin-top: 5em;
-    margin-left: 5em;
-    float: right;
-    display:inline-block;
-    font-family: 'Outfit', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    list-style: none;
-    }
-    ol#lista_filtrado li{
-        display: inline;
-        margin-right: 7em;
-    }

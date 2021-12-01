@@ -8,13 +8,15 @@
 	</head>
 	<body>
         <div id="header">
-            <img src="images/YourOutfitLogo.png"> <!--</div>-->
+            <a href="index.php">
+                <img src="images/YourOutfitLogo.png"> <!--</div>-->
+            </a>
             <ol id = "lista_filtrado">
                 <li>Hombre</li>
                 <li>Mujer</li>
                 <li>Unisex</li>
                 <li>Accesorios</li>
-                <li>Ropa</li>
+                <li>Calzado</li>
             </ol>
         </div>
         <div class="busqueda">

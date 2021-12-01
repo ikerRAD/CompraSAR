@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE stock SYSTEM "stock.dtd">
 <stock>
-	<item tags="HR" id="item_0">
-		<imagen>images/americana0.jpg</imagen>
+	<item tags="HR" id="AmericanaGrisVintageR5392I_0">
+		<imagen>images/AmericanaGrisVintage.jpg</imagen>
 		<nombre>Americana gris vintage</nombre>
 		<descripcion>
 			Algodón gris y poliester azul. Atuendo tanto formal como de fiesta.
@@ -40,8 +40,7 @@
 		</resenyas>
 		<descuento>20</descuento>
 	</item>
-
-	<item tags="UR" id="item_1">
+	<item tags="UR" id="AbrigoHimalayanTheNorthFaceTT271I_1">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
@@ -73,132 +72,146 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="UR" id="item_2">
-		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<nombre>Abrigo Himalayan The North Face</nombre>
+	<item tags="CR" id="NikeAirForce1VC3789I_2">
+		<imagen>images/NikeAirForce1VerdeCaqui.jpg</imagen>
+		<nombre>Nike AirForce 1 Verde Caqui</nombre>
 		<descripcion>
 
 		</descripcion>
-		<precio>220.00</precio>
+		<precio>119.99</precio>
 		<tallas>
-			<talla>S</talla>
-			<cantidad>5</cantidad>
+			<talla>38</talla>
+			<cantidad>2</cantidad>
 		</tallas>
 		<tallas>
-			<talla>M</talla>
+			<talla>39</talla>
 			<cantidad>0</cantidad>
 		</tallas>
 		<tallas>
-			<talla>L</talla>
-			<cantidad>1</cantidad>
+			<talla>40</talla>
+			<cantidad>2</cantidad>
 		</tallas>
 		<tallas>
-			<talla>XL</talla>
-			<cantidad>9</cantidad>
+			<talla>41</talla>
+			<cantidad>5</cantidad>
 		</tallas>
+		<tallas>
+			<talla>42</talla>
+			<cantidad>6</cantidad>
+		</tallas>
+		<tallas>
+			<talla>43</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>44</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>45</talla>
+			<cantidad>2</cantidad>
+		</tallas>
+
 		<resenyas>
-			<username>Español98</username>
-			<fecha>28/10/2021</fecha>
-			<valoracion>96</valoracion>
-			<titulo>Lo flipo</titulo>
-			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+			<username>ManuelLaIsla</username>
+			<fecha>30/11/2021</fecha>
+			<valoracion>100</valoracion>
+			<titulo>Estan gupas</titulo>
+			<resenya>Estan guapas</resenya>
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="UR" id="item_3">
-		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<nombre>Abrigo Himalayan The North Face</nombre>
+	<item tags="CR" id="NikeAirForce1BN3782I_3">
+		<imagen>images/NikeAirForce1BlancaNegra.jpg</imagen>
+		<nombre>Nike Air Force 1 Blanco/Negro</nombre>
 		<descripcion>
 
 		</descripcion>
-		<precio>220.00</precio>
+		<precio>119.99</precio>
 		<tallas>
-			<talla>S</talla>
-			<cantidad>5</cantidad>
-		</tallas>
-		<tallas>
-			<talla>M</talla>
-			<cantidad>0</cantidad>
-		</tallas>
-		<tallas>
-			<talla>L</talla>
+			<talla>38</talla>
 			<cantidad>1</cantidad>
 		</tallas>
 		<tallas>
-			<talla>XL</talla>
-			<cantidad>9</cantidad>
+			<talla>39</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>40</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>41</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>42</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>43</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>44</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>45</talla>
+			<cantidad>0</cantidad>
 		</tallas>
 		<resenyas>
-			<username>Español98</username>
-			<fecha>28/10/2021</fecha>
-			<valoracion>96</valoracion>
-			<titulo>Lo flipo</titulo>
-			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+			<username>Gorka02</username>
+			<fecha>28/11/2021</fecha>
+			<valoracion>100</valoracion>
+			<titulo>Miticas</titulo>
+			<resenya>Las tienen todos mis amigos</resenya>
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="UR" id="item_4">
-		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<nombre>Abrigo Himalayan The North Face</nombre>
+	<item tags="CR" id="NikeBlazersBB2891I_4">
+		<imagen>images/NikeBlazersBlanca.jpg</imagen>
+		<nombre>Nike Blazers Blanco</nombre>
 		<descripcion>
 
 		</descripcion>
-		<precio>220.00</precio>
+		<precio>99.90</precio>
 		<tallas>
-			<talla>S</talla>
-			<cantidad>5</cantidad>
-		</tallas>
-		<tallas>
-			<talla>M</talla>
-			<cantidad>0</cantidad>
-		</tallas>
-		<tallas>
-			<talla>L</talla>
+			<talla>36</talla>
 			<cantidad>1</cantidad>
 		</tallas>
 		<tallas>
-			<talla>XL</talla>
-			<cantidad>9</cantidad>
+			<talla>37</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>38</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>39</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>40</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>41</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>42</talla>
+			<cantidad>0</cantidad>
 		</tallas>
 		<resenyas>
-			<username>Español98</username>
-			<fecha>28/10/2021</fecha>
-			<valoracion>96</valoracion>
-			<titulo>Lo flipo</titulo>
-			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
+			<username>MariaAntonieta</username>
+			<fecha>12/10/2021</fecha>
+			<valoracion>100</valoracion>
+			<titulo>Look cayetanita</titulo>
+			<resenya>Perfectas para ir con un chaleco y unos pantalones campana</resenya>
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="UR" id="item_5">
-		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
-		<nombre>Abrigo Himalayan The North Face</nombre>
-		<descripcion>
 
-		</descripcion>
-		<precio>220.00</precio>
-		<tallas>
-			<talla>S</talla>
-			<cantidad>5</cantidad>
-		</tallas>
-		<tallas>
-			<talla>M</talla>
-			<cantidad>0</cantidad>
-		</tallas>
-		<tallas>
-			<talla>L</talla>
-			<cantidad>1</cantidad>
-		</tallas>
-		<tallas>
-			<talla>XL</talla>
-			<cantidad>9</cantidad>
-		</tallas>
-		<resenyas>
-			<username>Español98</username>
-			<fecha>28/10/2021</fecha>
-			<valoracion>96</valoracion>
-			<titulo>Lo flipo</titulo>
-			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
-		</resenyas>
-		<descuento>0</descuento>
-	</item>
 </stock>
