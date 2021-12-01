@@ -213,5 +213,134 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
+	<item tags="MA" id="aefnvestidocomunion22eea_5">
+		<imagen>images/vestidocomunion1.jpg</imagen>
+		<nombre>Vestido Comunión Azul Marino</nombre>
+		<descripcion>
 
+		</descripcion>
+		<precio>60.00</precio>
+		<tallas>
+			<talla>XS</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>10</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>MamaLuchona</username>
+			<fecha>03/10/2021</fecha>
+			<valoracion>12</valoracion>
+			<titulo>Mi hija se ve fea</titulo>
+			<resenya>No tiene nada que ver con el vestido pero lo pongo</resenya>
+		</resenyas>
+		<descuento>30</descuento>
+	</item>
+	<item tags="MA" id="VestidoFiestaNegro1wsdnei3_6">
+		<imagen>images/vestidofiesta1.jpg</imagen>
+		<nombre>Vestido Negro Ajustado de Fiesta</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>31.99</precio>
+		<tallas>
+			<talla>XS</talla>
+			<cantidad>15</cantidad>
+		</tallas>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>10</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Joana</username>
+			<fecha>12/03/2021</fecha>
+			<valoracion>60</valoracion>
+			<titulo>El problema no soy yo</titulo>
+			<resenya>Me parecía bonito pero todas mis amigas dicen que me hace ver como vieja. La verdad es que estoy un poco trieste por ello.
+			Por lo demás, no hay problema. Buena tela y excelente relación calidad precio. Si tienes más de 60 años, recomendadísimo!!!</resenya>
+		</resenyas>
+		<descuento>0</descuento>
+	</item>
+	<item tags="MA" id="VestidoKanKanswdas322e_7">
+		<imagen>images/vestidokankan.jpg</imagen>
+		<nombre>Vestido Cancan Rosa</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>420.00</precio>
+		<tallas>
+			<talla>XXS</talla>
+			<cantidad>25</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XS</talla>
+			<cantidad>10</cantidad>
+		</tallas>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>11</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>90</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Lauris</username>
+			<fecha>30/05/2020</fecha>
+			<valoracion>100</valoracion>
+			<titulo>Muy chulo</titulo>
+			<resenya>Me encanta. Soy bailarina y me lo compré para trabajar en el cabaret. Por desgracia llegó la covid y aún lo tengo muerto del asco sin estrenar.
+			Además estoy en el paro... En fin... El vestido bien, mi vida cuesta abajo y sin frenos.</resenya>
+		</resenyas>
+		<descuento>25</descuento>
+	</item>
+	<item tags="MA" id="jerseyrayadodAAAFFF23_8">
+		<imagen>images/jersey1.jpg</imagen>
+		<nombre>Jersey Veige con Rayas Negras</nombre>
+		<descripcion>
+
+		</descripcion>
+		<precio>24.99</precio>
+		<tallas>
+			<talla>S</talla>
+			<cantidad>5</cantidad>
+		</tallas>
+		<tallas>
+			<talla>M</talla>
+			<cantidad>0</cantidad>
+		</tallas>
+		<tallas>
+			<talla>L</talla>
+			<cantidad>1</cantidad>
+		</tallas>
+		<tallas>
+			<talla>XL</talla>
+			<cantidad>9</cantidad>
+		</tallas>
+		<resenyas>
+			<username>Pili</username>
+			<fecha>28/10/2021</fecha>
+			<valoracion>80</valoracion>
+			<titulo>Está bien</titulo>
+			<resenya>Está bien, trajeron lo que pedí. No pido más.</resenya>
+		</resenyas>
+		<descuento>5</descuento>
+	</item>
 </stock>
