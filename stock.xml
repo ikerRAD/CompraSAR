@@ -72,7 +72,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="CR" id="NikeAirForce1VC3789I_2">
+	<item tags="HC" id="NikeAirForce1VC3789I_2">
 		<imagen>images/NikeAirForce1VerdeCaqui.jpg</imagen>
 		<nombre>Nike AirForce 1 Verde Caqui</nombre>
 		<descripcion>
@@ -121,7 +121,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="CR" id="NikeAirForce1BN3782I_3">
+	<item tags="UC" id="NikeAirForce1BN3782I_3">
 		<imagen>images/NikeAirForce1BlancaNegra.jpg</imagen>
 		<nombre>Nike Air Force 1 Blanco/Negro</nombre>
 		<descripcion>
@@ -169,7 +169,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="CR" id="NikeBlazersBB2891I_4">
+	<item tags="MC" id="NikeBlazersBB2891I_4">
 		<imagen>images/NikeBlazersBlanca.jpg</imagen>
 		<nombre>Nike Blazers Blanco</nombre>
 		<descripcion>

@@ -7,7 +7,9 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
+
         <?php include_once "header.php";?>
+
         <ol id = "lista_filtrado">
             <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Hombre</a></li>
             <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Mujer</a></li>
