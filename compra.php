@@ -39,7 +39,7 @@ if(isset($_GET['compra_id'])){
             <div class="formulario_compra">
                 <form action=#>
                     Elige la talla:
-                    <select name=”talla”>
+                    <select name="talla">
                         <?php
                         foreach ($stock->item[$pos]->tallas as $tallas){
                             echo '<option value="'.$tallas->talla.'">'.$tallas->talla.'</option>';
@@ -49,7 +49,7 @@ if(isset($_GET['compra_id'])){
                     <br><br>
                     Elige la cantidad:
                     <br><br>
-                    <input type="number" id="cuantos" min="1" max="100" name="cantidad" placeholder="1" onchange="funcionprecio(<?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>);">
+                    <input type="number" id="cuantos" min="1" max="100" name="cantidad" value="1" onchange="funcionprecio(<?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>);">
                     <input type="button" name="boton" value="Comprar ya!" onclick="comprarAJAX(this.form, <?php echo $pos;?>);">
                 </form>
                 <div id="precio_actual">Total: <?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>€</div>

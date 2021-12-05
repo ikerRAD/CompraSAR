@@ -1,10 +1,15 @@
 .formulario_compra {
     margin-top: 20%;
     margin-left: 20%;
+    margin-bottom: 5em;
     display:inline-block;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+
+#compra_resultado{
+    font-size: 15px;
 }
 
 .formulario_compra select {

@@ -38,7 +38,7 @@
         <div class="content">
             <?php
             if (file_exists('stock.xml')) {
-                $e = 0;
+
                 $stock = simplexml_load_file("stock.xml");
                 foreach ($stock->item as $item){
                     ?>

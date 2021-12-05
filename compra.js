@@ -11,7 +11,7 @@ function comprarAJAX(form, pos){
     else
         xhr = new ActiveXObject("Microsoft.XMLHTTP");
 
-    xhr.open('GET','ajaxfuncts.php?KEY=compra&pos='+pos+'&talla='+form.talla.value+'&cantidad='form.cantidad.value,true);
+    xhr.open('GET','ajaxfuncts.php?KEY=compra&pos='+pos+'&talla='+form.talla[form.talla.selectedIndex].innerHTML+'&cantidad='+form.cantidad.value,true);
 
     xhr.onreadystatechange = function(){
         if(xhr.readyState == 4 && xhr.status == 200){
