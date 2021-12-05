@@ -94,7 +94,6 @@
 }
 
 #lista_filtrado{
-    color:white;
     margin-left: 5em;
     float: right;
     display:inline-block;
@@ -106,9 +105,47 @@
     top:-2.5em;
 }
 
+.orden{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#lista_ordenado{
+    display:inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    position:relative;
+    left:-2em;
+    top:2em;
+    background: black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#lista_ordenado li{
+    display: inline;
+    margin-right: 5em;
+
+}
+
+.ref-filtro{
+    color:white;
+}
+
+.ref-orden{
+    color:white;
+}
+
 #lista_filtrado li{
     display: inline;
     margin-right: 5em;
+}
+
+li a{
+    text-decoration: none;
 }
 
 .busqueda{

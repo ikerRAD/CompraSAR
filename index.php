@@ -9,17 +9,29 @@
 	<body>
         <?php include_once "header.php";?>
         <ol id = "lista_filtrado">
-            <li>Hombre</li>
-            <li>Mujer</li>
-            <li>Unisex</li>
-            <li>Accesorios</li>
-            <li>Calzado</li>
+            <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Hombre</a></li>
+            <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Mujer</a></li>
+            <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Unisex</a></li>
+            <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Accesorios</a></li>
+            <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-filtro">Calzado</a></li>
         </ol>
 
         <div class="busqueda">
             <form action=#>
                 <input type="text" placeholder="Busca..." name="barra_de_busqueda">
             </form>
+
+            <div class = "orden">Ordenar por:
+                <ol id = "lista_ordenado">
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">A-Z</a></li>
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">Z-A</a></li>
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">Precio: mayor a menor</a></li>
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">Precio: menor a mayor</a></li>
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">Descuento: mayor a menor</a></li>
+                    <li><a href="https://shangay.com/wp-content/uploads/2021/08/preview-26.jpg" class="ref-orden">Descuento: menor a mayor</a></li>
+                </ol>
+            </div>
+
         </div>
         <div class="content">
             <?php
