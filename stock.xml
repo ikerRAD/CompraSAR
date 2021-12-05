@@ -44,7 +44,7 @@
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
-
+			Abrigo cálido y trendy. Perfecto para lucirse cuándo más frío hace.
 		</descripcion>
 		<precio>220.00</precio>
 		<tallas>
@@ -76,7 +76,7 @@
 		<imagen>images/NikeAirForce1VerdeCaqui.jpg</imagen>
 		<nombre>Nike AirForce 1 Verde Caqui</nombre>
 		<descripcion>
-
+			Zapatillas de vestir con cierto punto elegante.
 		</descripcion>
 		<precio>119.99</precio>
 		<tallas>
@@ -125,7 +125,7 @@
 		<imagen>images/NikeAirForce1BlancaNegra.jpg</imagen>
 		<nombre>Nike Air Force 1 Blanco/Negro</nombre>
 		<descripcion>
-
+			Zapatillas en blanco y negro que combinan con todo.
 		</descripcion>
 		<precio>119.99</precio>
 		<tallas>
@@ -173,7 +173,7 @@
 		<imagen>images/NikeBlazersBlanca.jpg</imagen>
 		<nombre>Nike Blazers Blanco</nombre>
 		<descripcion>
-
+			Zapatillas blancas con talón alto.
 		</descripcion>
 		<precio>99.90</precio>
 		<tallas>
@@ -217,7 +217,7 @@
 		<imagen>images/vestidocomunion1.jpg</imagen>
 		<nombre>Vestido Comunión Azul Marino</nombre>
 		<descripcion>
-
+			Vestido de gala azul. 100% algodón.
 		</descripcion>
 		<precio>60.00</precio>
 		<tallas>
@@ -249,7 +249,7 @@
 		<imagen>images/vestidofiesta1.jpg</imagen>
 		<nombre>Vestido Negro Ajustado de Fiesta</nombre>
 		<descripcion>
-
+			Vestido de licra negra y elástica de fiesta.
 		</descripcion>
 		<precio>31.99</precio>
 		<tallas>
@@ -282,7 +282,7 @@
 		<imagen>images/vestidokankan.jpg</imagen>
 		<nombre>Vestido Cancan Rosa</nombre>
 		<descripcion>
-
+			Vestido rosa para baile cancan hecho de tela sintética.
 		</descripcion>
 		<precio>420.00</precio>
 		<tallas>
@@ -315,7 +315,7 @@
 		<imagen>images/jersey1.jpg</imagen>
 		<nombre>Jersey Veige con Rayas Negras</nombre>
 		<descripcion>
-
+			Jersey de lana de comercio justo.
 		</descripcion>
 		<precio>24.99</precio>
 		<tallas>
