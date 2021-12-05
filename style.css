@@ -1,5 +1,22 @@
-﻿#header {
+﻿body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#header {
     display: inline-block;
+    position: relative;
+    width: 110%;
+    height: 100%;
+    background: black;
+    text-decoration: none;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+#header a{
+    text-decoration: none;
 }
 
 #header img {
@@ -9,8 +26,74 @@
     height: 10em;
 }
 
-#header ol{
-    margin-top: 5em;
+.slogan{
+    display: inline;
+    margin-left: 4em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color:white;
+    position: relative;
+    top: -1.5em;
+}
+
+#footer{
+    display: inline-block;
+    position: relative;
+    width: 110%;
+    color:white;
+    height: 15em;
+    background: black;
+
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer img {
+    position: relative;
+    bottom: 20%;
+    left: 80%;
+    width: 10%;
+    height: 45%;
+}
+
+.pedidos{
+    margin-left: 0.5em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.email_contacto{
+    margin-left: 15%;
+    margin-top: 2em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.numero_contacto{
+    margin-left: 15%;
+    margin-top: 1em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.busqueda{
+    margin-top: 5px;
+    margin-left: 3em;
+}
+
+.busqueda form input{
+    width: 50%;
+}
+
+#lista_filtrado{
     margin-left: 5em;
     float: right;
     display:inline-block;
@@ -18,11 +101,55 @@
     font-size: 20px;
     font-weight: bold;
     list-style: none;
+    position:relative;
+    top:-2.5em;
 }
 
-#header li{
+.orden{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#lista_ordenado{
+    display:inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    position:relative;
+    left:-2em;
+    top:2em;
+    background: black;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#lista_ordenado li{
     display: inline;
     margin-right: 5em;
+
+}
+
+.ref-filtro{
+    color:white;
+}
+
+.ref-orden{
+    color:white;
+}
+
+#lista_filtrado li{
+    display: inline;
+    margin-right: 5em;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.busqueda{
+    position: relative;
 }
 
 .content{
@@ -35,9 +162,12 @@
     width:33%;
     min-height:45em;
     float:left;
-    text-decoration: none;
-
 }
+
+.buy-item{
+    text-decoration: none;
+}
+
 .item_img img{
 
     margin-top: 3em;
@@ -59,6 +189,14 @@
     font-weight: bold;
     margin-left: 2em;
     color: black;
+}
+
+.item_desc{
+    text-indent: 1.5em;
+    font-size: 1em;
+    margin-left: 3.5em;
+    color: black;
+    width: 25em;
 }
 
 .item_price_d{

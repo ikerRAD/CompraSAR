@@ -1,7 +1,6 @@
 .formulario_compra {
-    margin-top: 3em;
-    margin-left: 2em;
-    float: left;
+    margin-top: 20%;
+    margin-left: 20%;
     display:inline-block;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
@@ -21,10 +20,77 @@
 }
 
 .resenyas {
-    margin-top: 3em;
-    margin-left: 8em;
+    width: 120%;
+    margin-left: -10px;
     display:inline-block;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    background: darkgrey;
+}
+
+.titulo_reseñas{
+    margin:15px;
+    margin-bottom: 25px;
+}
+
+.resenya{
+    margin:10px;
+    background: snow;
+    width: 60%;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.userfecha{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    background: cadetblue;
+}
+
+.username{
+    margin-left: 5px;
+}
+
+.fecha{
+    font-size: 15px;
+    text-decoration: underline;
+    position: relative;
+    float:right;
+    margin-right: 5px;
+}
+
+.valoracion{
+    font-family: 'Outfit', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    background: lightsteelblue;
+    width: 8em;
+    float:left;
+}
+
+.titulo{
+    font-family: 'Outfit', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    background: lightsteelblue;
+}
+
+.comentario{
+    text-indent: 40px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 1em;
+}
+
+#precio_actual{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
 }
