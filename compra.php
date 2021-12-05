@@ -50,9 +50,10 @@ if(isset($_GET['compra_id'])){
                     Elige la cantidad:
                     <br><br>
                     <input type="number" id="cuantos" min="1" max="100" name="cantidad" placeholder="1" onchange="funcionprecio(<?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>);">
-                    <input type="button" name="boton" value="Comprar ya!" onclick="submit();">
+                    <input type="button" name="boton" value="Comprar ya!" onclick="comprarAJAX(this.form, <?php echo $pos;?>);">
                 </form>
                 <div id="precio_actual">Total: <?php echo round($stock->item[$pos]->precio*(1-($stock->item[$pos]->descuento/100)), 2); ?>€</div>
+                <div id="compra_resultado"></div>
             </div>
 
 
