@@ -81,6 +81,7 @@
 }
 
 .comentario{
+    text-indent: 40px;
     font-family: 'Outfit', sans-serif;
     font-size: 17px;
     font-weight: normal;

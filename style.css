@@ -154,6 +154,14 @@
     color: black;
 }
 
+.item_desc{
+    text-indent: 1.5em;
+    font-size: 1em;
+    margin-left: 3.5em;
+    color: black;
+    width: 25em;
+}
+
 .item_price_d{
     display: inline-block;
     margin-right: 0.7em;

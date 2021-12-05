@@ -22,7 +22,7 @@ if(isset($_GET['compra_id'])){
                     <div class ="item_name"><?php echo $stock->item[$pos]->nombre;?></div><?php
 
                     if($stock->item[$pos]->descuento == 0){
-                    ?><div class ="item_price"><?php echo $stock->item[$pos]->precio.'€';
+                    ?><div class ="item_price"><?php echo $stock->item[$pos]->precio.'€';?></div><?php
                     }
                     else{
                         ?>
@@ -31,7 +31,9 @@ if(isset($_GET['compra_id'])){
                         <?php
                     }
                     ?>
-                    </div>
+
+                    <div class ="item_desc"><?php echo $stock->item[$pos]->descripcion;?></div>
+
             </div>
 
             <div class="formulario_compra">
