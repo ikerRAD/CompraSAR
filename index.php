@@ -35,8 +35,8 @@ function filtrado($filtraje,$tags, $a_filtrar1, $a_filtrar2){
 	<head>
 		<title>YourOUTfit: Tienda online</title>
 		<meta charset="UTF-8">
-		<script type="text/javascript" src="index.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body <?php if(isset($_GET['orden'])){
                     switch ($_GET['orden']){
@@ -133,10 +133,10 @@ function filtrado($filtraje,$tags, $a_filtrar1, $a_filtrar2){
         </div>
         <div id="content">
             <?php
-            if (file_exists('stock.xml')) {
+            if (file_exists('datos/stock.xml')) {
 
 
-                $stock = simplexml_load_file("stock.xml");
+                $stock = simplexml_load_file("datos/stock.xml");
                 if(!isset($_GET['filters'])) {
                     $filters="HMUAC";
                 }else if($_GET['filters']==""){

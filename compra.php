@@ -11,13 +11,13 @@ function GuardarComentario($name, $puntuacion, $titulo, $comentario){
     $nuevo->addChild("titulo", $titulo);
     $nuevo->addChild("resenya", $comentario);
 
-    $stock->asXML('stock.xml');
+    $stock->asXML('datos/stock.xml');
 }
 
 
 if(isset($_GET['compra_id'])){
-    if(file_exists('stock.xml')){
-        $stock = simplexml_load_file("stock.xml");
+    if(file_exists('datos/stock.xml')){
+        $stock = simplexml_load_file("datos/stock.xml");
 
         $prueba = preg_split('/_/' , $_GET['compra_id']);
         $pos = intval($prueba[1]);
@@ -31,13 +31,13 @@ if(isset($_GET['compra_id'])){
             $error = "";
 
             if($nombre=="")
-                $error += "\tTu nombre es obligatorio!\n";
+                $error .= "\tTu nombre es obligatorio!\n";
             if($puntuacion<0 | $puntuacion>5)
-                $error += "\tPuntuacíon incorrecta!\n";
+                $error .= "\tPuntuacíon incorrecta!\n";
             if($titulo=="")
-                $error += "\tEl título es obligatorio\n";
+                $error .= "\tEl título es obligatorio\n";
             if($comentario=="")
-                $error += "\tNo has introducido ningún comentario!\n";
+                $error .= "\tNo has introducido ningún comentario!\n";
 
             if($error != ""){
                 echo '<div id="error" >'.$error.'</div>';
@@ -52,9 +52,9 @@ if(isset($_GET['compra_id'])){
         <head>
             <title>YourOUTfit: Comprar <?php echo $stock->item[$pos]->nombre;?></title>
             <meta charset="UTF-8">
-            <script type="text/javascript" src="compra.js"></script>
-            <link rel="stylesheet" type="text/css" href="compra.css">
-            <link rel="stylesheet" type="text/css" href="style.css">
+            <script type="text/javascript" src="js/compra.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/compra.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
         </head>
         <body>
             <?php include_once "header.php";?>
