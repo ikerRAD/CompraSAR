@@ -52,7 +52,7 @@ if(isset($_GET['KEY']))
                 $toreturn = 'ciudad inválida';
             }
             $cp = "/[0-9]+/i";
-            if(strlen($_GET['cp'])!=7 || preg_match($cp, $_GET['cp']) == 0){
+            if(strlen($_GET['cp'])<5 || strlen($_GET['cp'])>7 || preg_match($cp, $_GET['cp']) == 0){
                 if($toreturn=='OK')
                     $toreturn = 'código postal inválido';
                 else

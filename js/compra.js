@@ -34,7 +34,7 @@ function comprarAJAX(form, pos){
 
             if(xhr.responseText === "OK") {
                 document.getElementsByClassName("formulario_compra")[0].innerHTML = '<form action=#>\n' +
-                    '                    Escribe tu dirección:\n' +
+                    '                    Escribe tu dirección:\n<br>Selecciona tu país:' +
                     '                    <select name="país">\n' +
                     '                            <option value="Espanya">España</option>\n' +
                     '                            <option value="Francia">Francia</option>\n' +
@@ -71,7 +71,7 @@ function enviar(f, pos, cantidad){
         mal=true;
     }
     const pattern = /[0-9]+/;
-    if(f.cp.value.length<7 || !pattern.test(f.cp.value)){
+    if(f.cp.value.length<5 || !pattern.test(f.cp.value)){
         alert("introduce un código postal válido");
         mal=true;
     }
