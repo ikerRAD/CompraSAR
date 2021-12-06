@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE stock SYSTEM "stock.dtd">
 <stock>
-	<item tags="HA" id="AmericanaGrisVintageR5392I_0">
+	<item tags="H0A" id="AmericanaGrisVintageR5392I_0">
 		<imagen>images/AmericanaGrisVintage.jpg</imagen>
 		<nombre>Americana gris vintage</nombre>
 		<descripcion>
@@ -40,7 +40,7 @@
 		</resenyas>
 		<descuento>20</descuento>
 	</item>
-	<item tags="UA" id="AbrigoHimalayanTheNorthFaceTT271I_1">
+	<item tags="U0A" id="AbrigoHimalayanTheNorthFaceTT271I_1">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
@@ -72,7 +72,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="HC" id="NikeAirForce1VC3789I_2">
+	<item tags="H0C" id="NikeAirForce1VC3789I_2">
 		<imagen>images/NikeAirForce1VerdeCaqui.jpg</imagen>
 		<nombre>Nike AirForce 1 Verde Caqui</nombre>
 		<descripcion>
@@ -121,7 +121,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="UC" id="NikeAirForce1BN3782I_3">
+	<item tags="U0C" id="NikeAirForce1BN3782I_3">
 		<imagen>images/NikeAirForce1BlancaNegra.jpg</imagen>
 		<nombre>Nike Air Force 1 Blanco/Negro</nombre>
 		<descripcion>
@@ -169,7 +169,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="MC" id="NikeBlazersBB2891I_4">
+	<item tags="M0C" id="NikeBlazersBB2891I_4">
 		<imagen>images/NikeBlazersBlanca.jpg</imagen>
 		<nombre>Nike Blazers Blanco</nombre>
 		<descripcion>
@@ -213,7 +213,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="MA" id="aefnvestidocomunion22eea_5">
+	<item tags="M0A" id="aefnvestidocomunion22eea_5">
 		<imagen>images/vestidocomunion1.jpg</imagen>
 		<nombre>Vestido Comunión Azul Marino</nombre>
 		<descripcion>
@@ -245,7 +245,7 @@
 		</resenyas>
 		<descuento>30</descuento>
 	</item>
-	<item tags="MA" id="VestidoFiestaNegro1wsdnei3_6">
+	<item tags="M0A" id="VestidoFiestaNegro1wsdnei3_6">
 		<imagen>images/vestidofiesta1.jpg</imagen>
 		<nombre>Vestido Negro Ajustado de Fiesta</nombre>
 		<descripcion>
@@ -278,7 +278,7 @@
 		</resenyas>
 		<descuento>0</descuento>
 	</item>
-	<item tags="MA" id="VestidoKanKanswdas322e_7">
+	<item tags="M0A" id="VestidoKanKanswdas322e_7">
 		<imagen>images/vestidokankan.jpg</imagen>
 		<nombre>Vestido Cancan Rosa</nombre>
 		<descripcion>
@@ -311,7 +311,7 @@
 		</resenyas>
 		<descuento>25</descuento>
 	</item>
-	<item tags="MA" id="jerseyrayadodAAAFFF23_8">
+	<item tags="M0A" id="jerseyrayadodAAAFFF23_8">
 		<imagen>images/jersey1.jpg</imagen>
 		<nombre>Jersey Veige con Rayas Negras</nombre>
 		<descripcion>
