@@ -85,12 +85,18 @@
 }
 
 .busqueda{
-    margin-top: 5px;
+    margin-top: 1em;
     margin-left: 3em;
+    float: left;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.busqueda form input{
-    width: 50%;
+.busqueda input{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 #lista_filtrado{
@@ -106,10 +112,13 @@
 }
 
 .orden{
+    top: -3.5em;
+    position: relative;
+    float: right;
+    margin-left: 25em;
     font-family: 'Outfit', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 #lista_ordenado{
@@ -149,6 +158,10 @@ li a{
 }
 
 .busqueda{
+    display:inline-block;
+}
+
+.busqueda input {
     position: relative;
 }
 
