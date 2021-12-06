@@ -62,7 +62,9 @@
             <?php
             if (file_exists('stock.xml')) {
 
+
                 $match=0;
+
 
                 $stock = simplexml_load_file("stock.xml");
                 if(str_contains($_GET['filters'],$_GET['ref-filtro'])){
