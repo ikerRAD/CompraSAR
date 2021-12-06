@@ -1,3 +1,35 @@
+
+<?php
+function filtrado($filtraje,$tags, $a_filtrar1, $a_filtrar2){
+    $tags2 = str_split($tags);
+    $len = count($filtraje);
+    $nuevofiltraje = "";
+    for($i=1;$i<$len;$i++){
+        $nuevofiltraje=$nuevofiltraje." ".$filtraje[$i];
+    }
+    $nuevofiltraje = strtolower(ltrim($nuevofiltraje));
+
+    for($i=0;$i<strlen($tags);$i++) {
+        if (strpos(' ' . $filtraje[0], $tags2[$i])) {
+            if($len==1) {
+                return true;
+            }else{
+                if(preg_match('/'.$nuevofiltraje.'/', strtolower(ltrim($a_filtrar1)))){
+                    return true;
+                }
+
+                if(preg_match('/'.$nuevofiltraje.'/', strtolower(ltrim($a_filtrar2)))){
+                    return true;
+                }
+            }
+        }
+    }
+
+    return false;
+}
+?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,54 +38,95 @@
 		<script type="text/javascript" src="index.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body <?php if(isset($_GET['orden'])){
+                    switch ($_GET['orden']){
+                        case "AZ":
+                            echo 'onload="ordenar(1);"';
+                            break;
+                        case "ZA":
+                            echo 'onload="ordenar(2);"';
+                            break;
+                        case "09":
+                            echo 'onload="ordenar(3);"';
+                            break;
+                        case "90":
+                            echo 'onload="ordenar(4);"';
+                            break;
+                    }
+                } ?>>
 
         <?php include_once "header.php";?>
         <?php
             $filters="";
-         $pos=str_contains($_GET['filters'],$_GET['ref-filtro']);
-         if($pos === true){
-             $filters=$_GET['filters'];
-             $list=explode("0",$filters);
-             $n=array_search($_GET['ref-filtro'],$list);
-             unset($list[$n]);
-             $list=array_values($list);
-             $filters=implode("0",$list);
-         }else{
-             $filters=$_GET['filters']."0".$_GET['ref-filtro'];
-         }
-        if(isset($_GET['barra_de_busqueda'])){
-            $pos=str_contains($_GET['filters'],$_GET['barra_de_busqueda']);
-            if($pos === true){
-                $filters=$_GET['filters'];
-            }else{
-                $filters=$filters."0".$_GET['barra_de_busqueda'];
+            $H="";
+            $M="";
+            $U="";
+            $A="";
+            $C="";
+            if(isset($_GET['filters'])){
+                 $filters = $_GET['filters'];
+                 for($i=0;$i<strlen($filters);$i++){
+                     if($filters[$i] == "M"){
+                         $H=$H.$filters[$i];
+                         $U=$U.$filters[$i];
+                         $A=$A.$filters[$i];
+                         $C=$C.$filters[$i];
+                     }else if($filters[$i] == "H"){
+
+                         $M=$M.$filters[$i];
+                         $U=$U.$filters[$i];
+                         $A=$A.$filters[$i];
+                         $C=$C.$filters[$i];
+                     }else if($filters[$i] == "U"){
+                         $H=$H.$filters[$i];
+                         $M=$M.$filters[$i];
+                         $A=$A.$filters[$i];
+                         $C=$C.$filters[$i];
+                     }else if($filters[$i] == "A"){
+                         $H=$H.$filters[$i];
+                         $M=$M.$filters[$i];
+                         $U=$U.$filters[$i];
+                         $C=$C.$filters[$i];
+                     }else if($filters[$i] == "C"){
+                         $H=$H.$filters[$i];
+                         $M=$M.$filters[$i];
+                         $U=$U.$filters[$i];
+                         $A=$A.$filters[$i];
+                     }
+                 }
             }
-        }
-            $filt=explode("0", $filters);
+            $orden = "";
+            $busq = "";
+            if(isset($_GET['orden'])){
+                $orden = "&orden=".$_GET['orden'];
+            }
+            if(isset($_GET['barra_de_busqueda'])){
+                $busq = "&barra_de_busqueda=".$_GET['barra_de_busqueda'];
+            }
         ?>
         <ol id = "lista_filtrado">
-            <li><a style="<?php if(array_search("H",$filt,true)){echo "color:grey";}?>" href=<?php echo "index.php?ref-filtro=H&filters=".$filters?> class="ref-filtro">Hombre</a></li>
-            <li><a style="<?php if(array_search("M",$filt,true)){echo "color:grey";}?>" href=<?php echo "index.php?ref-filtro=M&filters=".$filters?> class="ref-filtro">Mujer</a></li>
-            <li><a style="<?php if(array_search("U",$filt,true)){echo "color:grey";}?>" href=<?php echo "index.php?ref-filtro=U&filters=".$filters?> class="ref-filtro">Unisex</a></li>
-            <li><a style="<?php if(array_search("A",$filt,true)){echo "color:grey";}?>" href=<?php echo "index.php?ref-filtro=A&filters=".$filters?> class="ref-filtro">Accesorios</a></li>
-            <li><a style="<?php if(array_search("C",$filt,true)){echo "color:grey";}?>" href=<?php echo "index.php?ref-filtro=C&filters=".$filters?> class="ref-filtro">Calzado</a></li>
+            <li><a style="<?php if(strpos(' '.$filters,"H")){echo "color:grey";}?>" href="<?php if(strpos(' '.$filters,"H"))echo "index.php?filters=".$H.$orden.$busq; else echo "index.php?filters=H".$H.$orden.$busq;?>" class="ref-filtro">Hombre</a></li>
+            <li><a style="<?php if(strpos(' '.$filters,"M")){echo "color:grey";}?>" href="<?php if(strpos(' '.$filters,"M"))echo "index.php?filters=".$M.$orden.$busq; else echo "index.php?filters=M".$M.$orden.$busq;?>" class="ref-filtro">Mujer</a></li>
+            <li><a style="<?php if(strpos(' '.$filters,"U")){echo "color:grey";}?>" href="<?php if(strpos(' '.$filters,"U"))echo "index.php?filters=".$U.$orden.$busq; else echo "index.php?filters=U".$U.$orden.$busq;?>" class="ref-filtro">Unisex</a></li>
+            <li><a style="<?php if(strpos(' '.$filters,"A")){echo "color:grey";}?>" href="<?php if(strpos(' '.$filters,"A"))echo "index.php?filters=".$A.$orden.$busq; else echo "index.php?filters=A".$A.$orden.$busq;?>" class="ref-filtro">Accesorios</a></li>
+            <li><a style="<?php if(strpos(' '.$filters,"C")){echo "color:grey";}?>" href="<?php if(strpos(' '.$filters,"C"))echo "index.php?filters=".$C.$orden.$busq; else echo "index.php?filters=C".$C.$orden.$busq;?>" class="ref-filtro">Calzado</a></li>
         </ol>
         <div class="busqueda">
 
             Busca tus artículos favoritos:
             <form action="index.php">
-                <input type="hidden" name="filters" value=<?php echo $_GET['filters']?>>
-                <input type="text" placeholder="Busca..." name="barra_de_busqueda">
+                <input type="hidden" name="filters" value=<?php echo $filters;?>>
+                <input type="text" placeholder="Busca..." <?php if(isset($_GET['barra_de_busqueda'])){echo 'value="'.$_GET['barra_de_busqueda'].'"';} ?> name="barra_de_busqueda">
+                <?php if(isset($_GET['orden'])){ echo '<input type="hidden" name="orden" value='.$_GET['orden'];} ?>
             </form>
 
             <div class = "orden">
                 Ordenar por:
                 <ol id = "lista_ordenado">
-                    <li><a href="#" onclick=ordenar(1) class="ref-orden">A-Z</a></li>
-                    <li><a href="#" onclick=ordenar(2) class="ref-orden">Z-A</a></li>
-                    <li><a href="#" onclick=ordenar(3) class="ref-orden">Precio: mayor a menor</a></li>
-                    <li><a href="#" onclick=ordenar(4) class="ref-orden">Precio: menor a mayor</a></li>
+                    <li><a href="index.php?orden=AZ&filters=<?php echo $filters; if(isset($_GET['barra_de_busqueda'])){echo $busq;}?>" class="ref-orden">A-Z</a></li>
+                    <li><a href="index.php?orden=ZA&filters=<?php echo $filters; if(isset($_GET['barra_de_busqueda'])){echo $busq;}?>" class="ref-orden">Z-A</a></li>
+                    <li><a href="index.php?orden=09&filters=<?php echo $filters; if(isset($_GET['barra_de_busqueda'])){echo $busq;}?>" class="ref-orden">Precio: mayor a menor</a></li>
+                    <li><a href="index.php?orden=90&filters=<?php echo $filters; if(isset($_GET['barra_de_busqueda'])){echo $busq;}?>" class="ref-orden">Precio: menor a mayor</a></li>
                 </ol>
             </div>
 
@@ -63,36 +136,22 @@
             if (file_exists('stock.xml')) {
 
 
-                $match=0;
-
-
                 $stock = simplexml_load_file("stock.xml");
-                if(str_contains($_GET['filters'],$_GET['ref-filtro'])){
-                    $list=explode("0",$filters);
-                    $n=array_search($_GET['ref-filtro'],$list);
-                    unset($list[$n]);
-                    $list=array_values($list);
-                    $filters=implode("0",$list);
+                if(!isset($_GET['filters'])) {
+                    $filters="HMUAC";
+                }else if($_GET['filters']==""){
+                    $filters="HMUAC";
                 }
-                $listFiltros=explode("0",$filters);
-
+                if(isset($_GET['barra_de_busqueda'])){
+                    $filters=$filters." ".$_GET['barra_de_busqueda'];
+                }
+                $listFiltros = preg_split("/\s/",$filters);
                 foreach ($stock->item as $item){
                         $tags=$item['tags'];
                         $descrip=$item->descripcion;
-                        $tags=explode("0",$tags);
-                        for($i=0; $i<sizeof($tags); $i++){
-                            if(array_search($tags[$i],$listFiltros,true)){
-                                $match=1;
-                                break;
-                            }
-                        }
-                        for($i=0; $i<sizeof($listFiltros); $i++){
-                            if(str_contains(strtolower($descrip),$listFiltros[$i])){
-                                $match=1;
-                                break;
-                            }
-                        }
-                        if($match==1 || empty($listFiltros)){
+                        $nombre=$item->nombre;
+
+                        if(filtrado($listFiltros, $tags, $nombre, $descrip)){
                     ?>
                     <div class="item">
                         <a class="buy-item" href="compra.php?compra_id=<?php echo $item['id'];?>">
@@ -113,7 +172,6 @@
                     </div>
                     <?php
                         }
-                        $match=0;
                 }
             }
             ?>

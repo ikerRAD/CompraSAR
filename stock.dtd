@@ -1,6 +1,6 @@
 <!ELEMENT stock (item)*>
 
-<!ELEMENT item (imagen, nombre, descripcion, precio,tallas+, resenyas*, descuento)>
+<!ELEMENT item (imagen, nombre, descripcion, precio,tallas+, descuento, resenyas*)>
 <!ATTLIST item tags CDATA #REQUIRED>
 <!ATTLIST item id ID #REQUIRED>
 <!ELEMENT imagen (#PCDATA)>

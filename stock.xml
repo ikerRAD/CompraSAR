@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE stock SYSTEM "stock.dtd">
 <stock>
-	<item tags="H0A" id="AmericanaGrisVintageR5392I_0">
+	<item tags="HA" id="AmericanaGrisVintageR5392I_0">
 		<imagen>images/AmericanaGrisVintage.jpg</imagen>
 		<nombre>Americana gris vintage</nombre>
 		<descripcion>
@@ -24,6 +24,7 @@
 			<talla>XL</talla>
 			<cantidad>4</cantidad>
 		</tallas>
+		<descuento>20</descuento>
 		<resenyas>
 			<username>Juanito</username>
 			<fecha>28/10/2020</fecha>
@@ -38,9 +39,8 @@
 			<titulo>He engordado</titulo>
 			<resenya>Es muy bonita pero como he ganado peso y ya no me queda pues expreso aquí mi frustración</resenya>
 		</resenyas>
-		<descuento>20</descuento>
 	</item>
-	<item tags="U0A" id="AbrigoHimalayanTheNorthFaceTT271I_1">
+	<item tags="UA" id="AbrigoHimalayanTheNorthFaceTT271I_1">
 		<imagen>images/AbrigoHimalayanTheNorthFace.jpeg</imagen>
 		<nombre>Abrigo Himalayan The North Face</nombre>
 		<descripcion>
@@ -63,6 +63,7 @@
 			<talla>XL</talla>
 			<cantidad>9</cantidad>
 		</tallas>
+		<descuento>0</descuento>
 		<resenyas>
 			<username>Español98</username>
 			<fecha>28/10/2021</fecha>
@@ -70,9 +71,8 @@
 			<titulo>Lo flipo</titulo>
 			<resenya>Todos mis amigos cayetanos lo tienen</resenya>
 		</resenyas>
-		<descuento>0</descuento>
-	</item>
-	<item tags="H0C" id="NikeAirForce1VC3789I_2">
+	<resenyas><username>Jonay</username><fecha>06/12/2021</fecha><valoracion>3</valoracion><titulo>Bien pero me lo han robao</titulo><resenya>Está tan wapo que me lo han mangao</resenya></resenyas></item>
+	<item tags="HC" id="NikeAirForce1VC3789I_2">
 		<imagen>images/NikeAirForce1VerdeCaqui.jpg</imagen>
 		<nombre>Nike AirForce 1 Verde Caqui</nombre>
 		<descripcion>
@@ -111,7 +111,7 @@
 			<talla>45</talla>
 			<cantidad>2</cantidad>
 		</tallas>
-
+		<descuento>0</descuento>
 		<resenyas>
 			<username>ManuelLaIsla</username>
 			<fecha>30/11/2021</fecha>
@@ -119,9 +119,8 @@
 			<titulo>Estan gupas</titulo>
 			<resenya>Estan guapas</resenya>
 		</resenyas>
-		<descuento>0</descuento>
 	</item>
-	<item tags="U0C" id="NikeAirForce1BN3782I_3">
+	<item tags="UC" id="NikeAirForce1BN3782I_3">
 		<imagen>images/NikeAirForce1BlancaNegra.jpg</imagen>
 		<nombre>Nike Air Force 1 Blanco/Negro</nombre>
 		<descripcion>
@@ -160,6 +159,7 @@
 			<talla>45</talla>
 			<cantidad>0</cantidad>
 		</tallas>
+		<descuento>0</descuento>
 		<resenyas>
 			<username>Gorka02</username>
 			<fecha>28/11/2021</fecha>
@@ -167,9 +167,8 @@
 			<titulo>Miticas</titulo>
 			<resenya>Las tienen todos mis amigos</resenya>
 		</resenyas>
-		<descuento>0</descuento>
 	</item>
-	<item tags="M0C" id="NikeBlazersBB2891I_4">
+	<item tags="MC" id="NikeBlazersBB2891I_4">
 		<imagen>images/NikeBlazersBlanca.jpg</imagen>
 		<nombre>Nike Blazers Blanco</nombre>
 		<descripcion>
@@ -204,6 +203,7 @@
 			<talla>42</talla>
 			<cantidad>0</cantidad>
 		</tallas>
+		<descuento>0</descuento>
 		<resenyas>
 			<username>MariaAntonieta</username>
 			<fecha>12/10/2021</fecha>
@@ -211,9 +211,8 @@
 			<titulo>Look cayetanita</titulo>
 			<resenya>Perfectas para ir con un chaleco y unos pantalones campana</resenya>
 		</resenyas>
-		<descuento>0</descuento>
 	</item>
-	<item tags="M0A" id="aefnvestidocomunion22eea_5">
+	<item tags="MA" id="aefnvestidocomunion22eea_5">
 		<imagen>images/vestidocomunion1.jpg</imagen>
 		<nombre>Vestido Comunión Azul Marino</nombre>
 		<descripcion>
@@ -236,6 +235,7 @@
 			<talla>L</talla>
 			<cantidad>9</cantidad>
 		</tallas>
+		<descuento>30</descuento>
 		<resenyas>
 			<username>MamaLuchona</username>
 			<fecha>03/10/2021</fecha>
@@ -243,9 +243,8 @@
 			<titulo>Mi hija se ve fea</titulo>
 			<resenya>No tiene nada que ver con el vestido pero lo pongo</resenya>
 		</resenyas>
-		<descuento>30</descuento>
 	</item>
-	<item tags="M0A" id="VestidoFiestaNegro1wsdnei3_6">
+	<item tags="MA" id="VestidoFiestaNegro1wsdnei3_6">
 		<imagen>images/vestidofiesta1.jpg</imagen>
 		<nombre>Vestido Negro Ajustado de Fiesta</nombre>
 		<descripcion>
@@ -268,17 +267,17 @@
 			<talla>L</talla>
 			<cantidad>9</cantidad>
 		</tallas>
+		<descuento>0</descuento>
 		<resenyas>
 			<username>Joana</username>
 			<fecha>12/03/2021</fecha>
 			<valoracion>3</valoracion>
 			<titulo>El problema no soy yo</titulo>
 			<resenya>Me parecía bonito pero todas mis amigas dicen que me hace ver como vieja. La verdad es que estoy un poco trieste por ello.
-			Por lo demás, no hay problema. Buena tela y excelente relación calidad precio. Si tienes más de 60 años, recomendadísimo!!!</resenya>
+				Por lo demás, no hay problema. Buena tela y excelente relación calidad precio. Si tienes más de 60 años, recomendadísimo!!!</resenya>
 		</resenyas>
-		<descuento>0</descuento>
 	</item>
-	<item tags="M0A" id="VestidoKanKanswdas322e_7">
+	<item tags="MA" id="VestidoKanKanswdas322e_7">
 		<imagen>images/vestidokankan.jpg</imagen>
 		<nombre>Vestido Cancan Rosa</nombre>
 		<descripcion>
@@ -301,17 +300,17 @@
 			<talla>M</talla>
 			<cantidad>90</cantidad>
 		</tallas>
+		<descuento>25</descuento>
 		<resenyas>
 			<username>Lauris</username>
 			<fecha>30/05/2020</fecha>
 			<valoracion>5</valoracion>
 			<titulo>Muy chulo</titulo>
 			<resenya>Me encanta. Soy bailarina y me lo compré para trabajar en el cabaret. Por desgracia llegó la covid y aún lo tengo muerto del asco sin estrenar.
-			Además estoy en el paro... En fin... El vestido bien, mi vida cuesta abajo y sin frenos.</resenya>
+				Además estoy en el paro... En fin... El vestido bien, mi vida cuesta abajo y sin frenos.</resenya>
 		</resenyas>
-		<descuento>25</descuento>
 	</item>
-	<item tags="M0A" id="jerseyrayadodAAAFFF23_8">
+	<item tags="MA" id="jerseyrayadodAAAFFF23_8">
 		<imagen>images/jersey1.jpg</imagen>
 		<nombre>Jersey Veige con Rayas Negras</nombre>
 		<descripcion>
@@ -334,6 +333,7 @@
 			<talla>XL</talla>
 			<cantidad>9</cantidad>
 		</tallas>
+		<descuento>5</descuento>
 		<resenyas>
 			<username>Pili</username>
 			<fecha>28/10/2021</fecha>
@@ -341,6 +341,5 @@
 			<titulo>Está bien</titulo>
 			<resenya>Está bien, trajeron lo que pedí. No pido más.</resenya>
 		</resenyas>
-		<descuento>5</descuento>
 	</item>
 </stock>
