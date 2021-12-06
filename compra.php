@@ -1,9 +1,50 @@
 <?php
 
+function GuardarComentario($name, $puntuacion, $titulo, $comentario){
+    global $stock;
+    global $pos;
+
+    $nuevo = $stock->item[$pos]->addChild("resenyas");
+    $nuevo->addChild("username", $name);
+    $nuevo->addChild("fecha", date("d/m/Y"));
+    $nuevo->addChild("valoracion", $puntuacion);
+    $nuevo->addChild("titulo", $titulo);
+    $nuevo->addChild("resenya", $comentario);
+
+    $stock->asXML('stock.xml');
+}
+
+
 if(isset($_GET['compra_id'])){
     if(file_exists('stock.xml')){
         $stock = simplexml_load_file("stock.xml");
-        $pos =  intval(preg_split('/_/',$_GET['compra_id'])[1]);
+
+        $prueba = preg_split('/_/' , $_GET['compra_id']);
+        $pos = intval($prueba[1]);
+
+        if(isset($_GET['subir'])){
+
+            $nombre = $_GET['nombre'];
+            $puntuacion = $_GET['puntuacion'];
+            $titulo = $_GET['titulo'];
+            $comentario = $_GET['comentario'];
+            $error = "";
+
+            if($nombre=="")
+                $error += "\tTu nombre es obligatorio!\n";
+            if($puntuacion<0 | $puntuacion>5)
+                $error += "\tPuntuacíon incorrecta!\n";
+            if($titulo=="")
+                $error += "\tEl título es obligatorio\n";
+            if($comentario=="")
+                $error += "\tNo has introducido ningún comentario!\n";
+
+            if($error != ""){
+                echo '<div id="error" >'.$error.'</div>';
+            }
+            else
+                GuardarComentario($nombre, $puntuacion, $titulo, $comentario);
+        }
         ?>
 
         <!DOCTYPE html>
@@ -63,15 +104,19 @@ if(isset($_GET['compra_id'])){
 
             foreach ($stock->item[$pos]->resenyas as $resenyas){
                 $toecho = '<div class="resenya"><div class="userfecha"><span class="username">'.$resenyas->username.'</span><span class="fecha">'.$resenyas->fecha.'</span></div>';
-                $toecho = $toecho.'<div class="valoracion">'.$resenyas->valoracion.'/100</div><div class="titulo">'.$resenyas->titulo.'</div><div class="comentario">'.$resenyas->resenya.'</div></div>';
+                $toecho = $toecho.'<div class="valoracion">'.$resenyas->valoracion.'/5</div><div class="titulo">'.$resenyas->titulo.'</div><div class="comentario">'.$resenyas->resenya.'</div></div>';
                     echo $toecho;
                   }
 
             ?>
+            </div>
+            <div id="añadir_resenya" >
+                <input type="button" name="añadir_res" value="Añadir Reseña" onclick="funcion_resenya('<?php echo $_GET['compra_id']?>');">
             </div>
         </body>
         <?php include_once "footer.php";?>
         </html>
         <?php
     }
+
 }?>
