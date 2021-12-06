@@ -85,7 +85,7 @@ if(isset($_GET['KEY']))
                     $stock = simplexml_load_file("stock.xml");
                     $item = $stock->item[intval($_GET['pos'])];
                     $pagado = round(intval($_GET['cant'])*($item->precio*(1-($item->descuento/100))),2);
-                    $toreturn = 'Has comprado'.$_GET['cant'].' de '.$item->nombre.":<br> ".$pagado.'€ en total<br>'.'<a href="index.php"><button>seguir comprando</button></a>';
+                    $toreturn = 'Has comprado '.$_GET['cant'].' de '.$item->nombre.":<br> ".$pagado.'€ en total<br>'.'<a href="index.php"><button>seguir comprando</button></a>';
                 }
             }
 
