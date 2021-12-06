@@ -1,3 +1,12 @@
+.item_img img {
+
+    margin-top: 3em;
+    margin-left: 3.5em;
+    width: 25em;
+    height: 35em;
+}
+
+.formulario_compra
 .formulario_compra {
     margin-top: 20%;
     margin-left: 20%;
@@ -99,3 +108,33 @@
     font-weight: bold;
     margin-top: 1em;
 }
+
+#añadir_resenya {
+    width: 120%;
+    margin-left: -10px;
+    display:inline-block;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: darkgrey;
+}
+
+#añadir_resenya input {
+    margin-left: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#añadir_resenya textarea {
+    font-family: 'Outfit', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#form_nuevocoment {
+    position: relative;
+    left: 20px;
+}
+
+
