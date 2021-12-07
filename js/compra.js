@@ -34,7 +34,7 @@ function comprarAJAX(form, pos){
 
             if(xhr.responseText === "OK") {
                 document.getElementsByClassName("formulario_compra")[0].innerHTML = '<form action=#>\n' +
-                    '                    Escribe tu dirección:\n<br>Selecciona tu país:' +
+                    '                    Rellena tus datos de envío:\n<br><br>Selecciona tu país:' +
                     '                    <select name="país">\n' +
                     '                            <option value="Espanya">España</option>\n' +
                     '                            <option value="Francia">Francia</option>\n' +
@@ -48,8 +48,8 @@ function comprarAJAX(form, pos){
                     '                    <input type="text" maxlength="7" name="cp" placeholder="código postal..."> \n' +
                     '                    <br> \n' +
                     '                    Dirección: \n' +
-                    '                    <input type="text" name="dir" placeholder="dirección..."> \n' +
-                    '                    <input type="button" name="boton" value="proseguir" onclick="enviar(this.form, '+pos+','+ form.cantidad.value+');">\n' +
+                    '                    <input type="text" name="dir" placeholder="dirección..."><br><br>\n' +
+                    '                    <input type="button" name="boton" value="Continuar" onclick="enviar(this.form, '+pos+','+ form.cantidad.value+');">\n' +
                     '                </form>' +
                     '               <div id="envio_resultado"></div>' ;
 
@@ -67,16 +67,16 @@ function enviar(f, pos, cantidad){
 
     var mal = false;
     if(f.ciudad.value.length<1){
-        alert("introduce una ciudad posible");
+        alert("Introduce una ciudad posible");
         mal=true;
     }
     const pattern = /[0-9]+/;
     if(f.cp.value.length<5 || !pattern.test(f.cp.value)){
-        alert("introduce un código postal válido");
+        alert("Introduce un código postal válido");
         mal=true;
     }
     if(f.dir.value.length<1){
-        alert("introduce una dirección válida");
+        alert("Introduce una dirección válida");
         mal=true;
     }
 

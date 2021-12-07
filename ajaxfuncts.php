@@ -49,54 +49,54 @@ if(isset($_GET['KEY']))
             $toreturn = 'OK';
 
             if(strlen($_GET['ciudad'])<1){
-                $toreturn = 'ciudad inválida';
+                $toreturn = 'Ciudad inválida';
             }
             $cp = "/[0-9]+/i";
             if(strlen($_GET['cp'])<5 || strlen($_GET['cp'])>7 || preg_match($cp, $_GET['cp']) == 0){
                 if($toreturn=='OK')
-                    $toreturn = 'código postal inválido';
+                    $toreturn = 'Código postal inválido';
                 else
-                    $toreturn = $toreturn . ', código postal inválido';
+                    $toreturn = $toreturn . ', Código postal inválido';
             }
             if(strlen($_GET['dir'])<1){
                 if($toreturn=='OK')
-                    $toreturn = 'dirección inválida';
+                    $toreturn = 'Dirección inválida';
                 else
-                    $toreturn = $toreturn . ', dirección inválida';
+                    $toreturn = $toreturn . ', Dirección inválida';
             }
             echo $toreturn;
             break;
         case "pago":
             $toreturn = "";
             if(strlen($_GET['nombre'])<3 || preg_match("/[a-zA-ZñÑáéíóúÁÉÍÓÚ]+(\s[a-zA-ZñÑáéíóúÁÉÍÓÚ\-]+.?)+/", $_GET['nombre']) == 0){
-                $toreturn = "ERROR: nombre inválido";
+                $toreturn = "ERROR: Nombre inválido";
             }
             $datesplit = preg_split("/\//",$_GET['date']);
             if(preg_match("/[0-9]{1,2}\/[0-9]{2}/", $_GET['date'])==0 || intval($datesplit[0])>12 || intval($datesplit[1])<intval(date("Y"))%100||
                 (intval($datesplit[1])==intval(date("Y"))%100 && intval($datesplit[1])<intval(date("m")))){
                 if($toreturn=='')
-                    $toreturn = 'ERROR: fecha de caducidad inválida';
+                    $toreturn = 'ERROR: Fecha de caducidad inválida';
                 else
-                    $toreturn = $toreturn . ', fecha de caducidad inválida';
+                    $toreturn = $toreturn . ', Fecha de caducidad inválida';
             }
             if(preg_match("/[0-9]{16}/", $_GET['tarjeta']) == 0){
                 if($toreturn=='')
-                    $toreturn = 'ERROR: número de tarjeta inválido';
+                    $toreturn = 'ERROR: Número de tarjeta inválido';
                 else
-                    $toreturn = $toreturn . ', número de tarjeta inválido';
+                    $toreturn = $toreturn . ', Número de tarjeta inválido';
             }
             if(preg_match("/[0-9]{3}/", $_GET['cvc']) == 0){
                 if($toreturn=='')
                     $toreturn = 'ERROR: número de seguridad inválido';
                 else
-                    $toreturn = $toreturn . ', número de seguridad inválido';
+                    $toreturn = $toreturn . ', Número de seguridad inválido';
             }
             if($toreturn == ""){
                 if (file_exists('datos/stock.xml')) {
                     $stock = simplexml_load_file("datos/stock.xml");
                     $item = $stock->item[intval($_GET['pos'])];
                     $pagado = round(intval($_GET['cant'])*($item->precio*(1-($item->descuento/100))),2);
-                    $toreturn = 'Has comprado '.$_GET['cant'].' de '.$item->nombre.":<br> ".$pagado.'€ en total<br>'.'<a href="index.php"><button>seguir comprando</button></a>';
+                    $toreturn = 'Has comprado '.$_GET['cant'].' de '.$item->nombre.":<br> ".$pagado.'€ en total<br>'.'<a href="index.php"><button>Seguir comprando</button></a>';
                 }
             }
 

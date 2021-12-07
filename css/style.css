@@ -47,7 +47,6 @@
 
     margin-left: -10px;
     margin-right: 10px;
-    margin-bottom: -10px;
 }
 
 #footer a{
@@ -56,28 +55,36 @@
 
 #footer img {
     position: relative;
-    bottom: 20%;
+    top: -4em;
     left: 80%;
-    width: 10%;
-    height: 45%;
+    width: 12em;
+    height: 7em;
 }
 
 .pedidos{
-    margin-left: 0.5em;
+    margin-left: 2em;
+    margin-top: 1em;
     font-family: 'Outfit', sans-serif;
     font-size: 2em;
     font-weight: bold;
 }
 
 .email_contacto{
-    margin-left: 15%;
+    margin-left: 6em;
     margin-top: 2em;
     font-family: 'Outfit', sans-serif;
     font-size: 1em;
     font-weight: bold;
+    text-decoration: none;
 }
+
+.email_contacto a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
 .numero_contacto{
-    margin-left: 15%;
+    margin-left: 6em;
     margin-top: 1em;
     font-family: 'Outfit', sans-serif;
     font-size: 1em;
